@@ -3,8 +3,8 @@ syntax = "proto2";
 package dota;
 option go_package = "github.com/liamJunkermann/manta/dota;dota";
 
-import "steamnetworkingsockets_messages.proto";
-import "steamdatagram_messages_sdr.proto";
+import "steamnetworkingsockets_messages_m.proto";
+import "steamdatagram_messages_sdr_m.proto";
 
 option optimize_for = SPEED;
 option cc_generic_services = true;

@@ -3,11 +3,11 @@ syntax = "proto2";
 package dota;
 option go_package = "github.com/liamJunkermann/manta/dota;dota";
 
-import "base_gcmessages.proto";
-import "dota_gcmessages_common_match_management.proto";
-import "dota_gcmessages_common_lobby.proto";
-import "dota_gcmessages_common.proto";
-import "dota_shared_enums.proto";
+import "base_gcmessages_m.proto";
+import "dota_gcmessages_common_match_management_m.proto";
+import "dota_gcmessages_common_lobby_m.proto";
+import "dota_gcmessages_common_m.proto";
+import "dota_shared_enums_m.proto";
 
 option cc_generic_services = false;
 

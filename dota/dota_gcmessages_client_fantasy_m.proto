@@ -3,7 +3,7 @@ syntax = "proto2";
 package dota;
 option go_package = "github.com/liamJunkermann/manta/dota;dota";
 
-import "dota_shared_enums.proto";
+import "dota_shared_enums_m.proto";
 
 option optimize_for = SPEED;
 option cc_generic_services = false;

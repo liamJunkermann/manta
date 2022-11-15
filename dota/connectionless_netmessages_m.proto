@@ -3,7 +3,7 @@ syntax = "proto2";
 package dota;
 option go_package = "github.com/liamJunkermann/manta/dota;dota";
 
-import "netmessages.proto";
+import "netmessages_m.proto";
 
 option cc_generic_services = false;
 

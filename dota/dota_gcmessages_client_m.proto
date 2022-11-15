@@ -3,16 +3,16 @@ syntax = "proto2";
 package dota;
 option go_package = "github.com/liamJunkermann/manta/dota;dota";
 
-import "steammessages.proto";
-import "dota_shared_enums.proto";
-import "dota_gcmessages_common.proto";
-import "dota_gcmessages_webapi.proto";
-import "gcsdk_gcmessages.proto";
-import "dota_gcmessages_common_lobby.proto";
-import "dota_gcmessages_common_match_management.proto";
-import "base_gcmessages.proto";
-import "econ_gcmessages.proto";
-import "valveextensions.proto";
+import "steammessages_m.proto";
+import "dota_shared_enums_m.proto";
+import "dota_gcmessages_common_m.proto";
+import "dota_gcmessages_webapi_m.proto";
+import "gcsdk_gcmessages_m.proto";
+import "dota_gcmessages_common_lobby_m.proto";
+import "dota_gcmessages_common_match_management_m.proto";
+import "base_gcmessages_m.proto";
+import "econ_gcmessages_m.proto";
+import "valveextensions_m.proto";
 
 option optimize_for = SPEED;
 option cc_generic_services = false;
@@ -2916,6 +2916,7 @@ message CMsgClientToGCSetEventActiveSeasonIDResponse {
 		k_eTooBusy = 3;
 		k_eNotAllowed = 4;
 		k_eTimeout = 5;
+		k_eInternalSuccessNoChange = 6;
 	}
 
 	optional CMsgClientToGCSetEventActiveSeasonIDResponse.EResponse result = 1;
