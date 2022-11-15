@@ -3,7 +3,7 @@ package manta
 import (
 	"sort"
 
-	"github.com/dotabuff/manta/dota"
+	"github.com/liamJunkermann/manta/dota"
 )
 
 // A message that has been read from an outerMessage but not yet processed.

@@ -1,4 +1,4 @@
-module github.com/dotabuff/manta
+module github.com/liamJunkermann/manta
 
 go 1.16
 
